@@ -1,6 +1,10 @@
 body {
-    background-color:#92736c;
-    color:#FDF1F5;
+    background-color:#F6F7EB;
+    color:#393E41;
+}
+#logo img{
+    border:1px solid #393E41;
+    border-radius:15px;
 }
 #logo img,#a{
     margin: 5px;
@@ -8,14 +12,51 @@ body {
     height:80px;
     width:80px;
 }
+
+#nav-content{
+    padding-left: 0;
+}
 #nav-content li,a{
-    display:inline-block;
-    align-items: center;
+    display:flex;
+    justify-content: left;
     text-decoration: none;
-    padding: 10px;
-    color:#FDF1F5;
+    padding:10px;
+    color:#393E41;
     font-size: 25px;
-    margin-right:10px;
-    margin-top:20px 0;
-    
+    margin-left:0;
+}
+
+#sidebar{
+    border: 1px solid #393E41;
+    border-width: 4px;
+    width:200px;
+    height: 550px;
+    margin:0;
+    padding:0;
+    border-radius:10px;
+}
+
+#github{
+    padding-left:0;
+}
+
+#github button{
+    width:100px;
+    height: 30px;
+    border:1px solid;
+    border-radius: 13px;
+    margin-left:20px;
+    background-color: #393E41;
+    color:#F6F7EB;
+    margin-top:100px;
+    cursor: default;
+}
+
+#github button:hover{
+    background-color:#92736c;
+    transition:0.3s ease-in-out;
+}
+
+#nav-content a:hover{
+    color:#92736c;
 }
