@@ -1,0 +1,21 @@
+body {
+    background-color:#92736c;
+    color:#FDF1F5;
+}
+#logo img,#a{
+    margin: 5px;
+    padding:0;
+    height:80px;
+    width:80px;
+}
+#nav-content li,a{
+    display:inline-block;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    color:#FDF1F5;
+    font-size: 25px;
+    margin-right:10px;
+    margin-top:20px 0;
+    
+}
